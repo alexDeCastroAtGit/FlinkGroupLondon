@@ -1,11 +1,11 @@
 resolvers in ThisBuild ++= Seq("Apache Development Snapshot Repository" at "https://repository.apache.org/content/repositories/snapshots/",
   Resolver.mavenLocal)
 
-name := "Flink Project"
+name := "Flink On Line ML"
 
-version := "0.1-SNAPSHOT"
+version := "0.1"
 
-organization := "org.example"
+organization := "uk.co.dataReply"
 
 scalaVersion in ThisBuild := "2.11.7"
 
