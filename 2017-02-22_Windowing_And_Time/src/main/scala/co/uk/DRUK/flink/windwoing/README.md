@@ -54,8 +54,8 @@ Let's try to understand the different component of window API with count window.
   * **Evictor**  
   For example let's say we want to remove the every 3rd element of all window. This preprocessing can be done in Evictor.  
   In general Flink comes with 3 different evictors.  
-    1. **CountEvictor:** keeps up to a user-specified number of elements from the window and discards the remaining ones from the beginning of the window buffer.
-    2. **DeltaEvictor:** takes a DeltaFunction and a threshold, computes the delta between the last element in the window buffer and each of the remaining ones, and removes the ones with a delta greater or equal to the threshold.
+    1. **CountEvictor:** keeps up to a user-specified number of elements from the window and discards the remaining ones from the beginning of the window buffer.  
+    2. **DeltaEvictor:** takes a DeltaFunction and a threshold, computes the delta between the last element in the window buffer and each of the remaining ones, and removes the ones with a delta greater or equal to the threshold.  
     3. **TimeEvictor:** takes as argument an interval in milliseconds and for a given window, it finds the maximum timestamp max_ts among its elements and removes all the elements with timestamps smaller than max_ts - interval.  
-
+  
     **Note:** All evictors apply their logic before the window function.
