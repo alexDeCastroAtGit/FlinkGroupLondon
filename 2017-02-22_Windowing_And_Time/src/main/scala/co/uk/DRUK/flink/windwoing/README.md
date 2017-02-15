@@ -41,12 +41,13 @@ Let's try to understand the different component of window API with count window.
   * **Window Assigner**  
   When we build an count based window, there is no start or end to the window. So for those kind of non time based windows, we have window assigner called GlobalWindow. For a given key, all values are filled into the same window.  
 
-  ```keyValue.window(GlobalWindows.create())```  
+  `keyValue.window(GlobalWindows.create())`   
 
   window API allows us to add the window assigner to the window. Every window assigner has a default trigger. The default trigger for a global window is NeverTrigger which never triggers. So this window assigner has to be used with a custom trigger.  
+
   * **Count trigger**  
 
-  ```trigger(CountTrigger.of(2))```  
+  `trigger(CountTrigger.of(2))`  
 
   Once we have the window assigner, we have to define when the window needs to be trigger. In the above code, we add a trigger which evaluates the window for every two records.  
 
