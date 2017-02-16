@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventTimeExample.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EventTimeExample.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/eventTime/EventTimeExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            <state relative-caret-position="60">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="e#91#147#0" expanded="true" />
               </folding>
@@ -99,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamingWordCount.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StreamingWordCount.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/StreamingWordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -153,7 +153,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/WindowedStreamingWordCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/WindowAnatomy.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/StreamingWordCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/Models.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/WindowExample.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
@@ -161,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/SessionWindowExample/SessionTrigger.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/customSource/CustomSource.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/eventTime/EventTimeExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/StreamingWordCount.scala" />
       </list>
     </option>
   </component>
@@ -293,7 +293,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.WindowAnatomy">
+  <component name="RunManager" selected="Application.StreamingWordCount">
     <configuration default="false" name="WindowExample" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -661,9 +661,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.WindowAnatomy" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WindowedStreamingWordCount" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StreamingWordCount" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StreamingWordCount" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WindowAnatomy" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WindowedStreamingWordCount" />
         <item index="3" class="java.lang.String" itemvalue="Application.WindowExample" />
       </list>
     </recent_temporary>
@@ -727,7 +727,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -739,7 +739,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -956,14 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/StreamingWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/Models.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1016,6 +1008,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/eventTime/EventTimeExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#91#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/WindowAnatomy.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1026,13 +1028,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/eventTime/EventTimeExample.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/co/uk/DRUK/flink/windwoing/StreamingWordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="e#91#147#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
