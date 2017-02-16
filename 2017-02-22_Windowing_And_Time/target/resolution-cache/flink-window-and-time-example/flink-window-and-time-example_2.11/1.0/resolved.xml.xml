@@ -4,7 +4,7 @@
 		module="flink-window-and-time-example_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170214134239"
+		publication="20170215165101"
 	>
 		<description>
 		flink-Window-and-Time-Example
@@ -34,8 +34,8 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.apache.flink" name="flink-scala_2.11" rev="1.0.0" conf="compile->default(compile)"/>
-		<dependency org="org.apache.flink" name="flink-clients_2.11" rev="1.0.0" conf="compile->default(compile)"/>
-		<dependency org="org.apache.flink" name="flink-streaming-scala_2.11" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.flink" name="flink-scala_2.11" rev="1.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.flink" name="flink-clients_2.11" rev="1.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.flink" name="flink-streaming-scala_2.11" rev="1.2.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
