@@ -12,7 +12,7 @@ import scala.util.Random
 object CustomSource {
 
   def generateRandomStringSource(out:SourceContext[String]) = {
-    val lines = Array("how are you","you are how", " i am fine")
+    val lines = Array("Hello World to Flink","Flink is great for streaming process", "I am using Flink for all stream process")
     while (true) {
       val index = Random.nextInt(3)
       Thread.sleep(200)

@@ -15515,7 +15515,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.flink#flink-streaming-java_2.11;1.2.0!flink-streaming-java_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.sling#org.apache.sling.commons.json;2.0.6!org.apache.sling.commons.json.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6790ms :: artifacts dl 107ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4247ms :: artifacts dl 71ms[0m
 [0m[[0mdebug[0m] [0m	report for flink-window-and-time-example#flink-window-and-time-example_2.11;1.0 compile produced in /Users/satyasatyasheel/Documents/Projects/Official/FlinkGroupLondon/2017-02-22_Windowing_And_Time/target/resolution-cache/reports/flink-window-and-time-example-flink-window-and-time-example_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for flink-window-and-time-example#flink-window-and-time-example_2.11;1.0 runtime produced in /Users/satyasatyasheel/Documents/Projects/Official/FlinkGroupLondon/2017-02-22_Windowing_And_Time/target/resolution-cache/reports/flink-window-and-time-example-flink-window-and-time-example_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for flink-window-and-time-example#flink-window-and-time-example_2.11;1.0 test produced in /Users/satyasatyasheel/Documents/Projects/Official/FlinkGroupLondon/2017-02-22_Windowing_And_Time/target/resolution-cache/reports/flink-window-and-time-example-flink-window-and-time-example_2.11-test.xml[0m
@@ -15529,5 +15529,5 @@
 [0m[[0mdebug[0m] [0m	report for flink-window-and-time-example#flink-window-and-time-example_2.11;1.0 docs produced in /Users/satyasatyasheel/Documents/Projects/Official/FlinkGroupLondon/2017-02-22_Windowing_And_Time/target/resolution-cache/reports/flink-window-and-time-example-flink-window-and-time-example_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for flink-window-and-time-example#flink-window-and-time-example_2.11;1.0 pom produced in /Users/satyasatyasheel/Documents/Projects/Official/FlinkGroupLondon/2017-02-22_Windowing_And_Time/target/resolution-cache/reports/flink-window-and-time-example-flink-window-and-time-example_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for flink-window-and-time-example#flink-window-and-time-example_2.11;1.0 scala-tool produced in /Users/satyasatyasheel/Documents/Projects/Official/FlinkGroupLondon/2017-02-22_Windowing_And_Time/target/resolution-cache/reports/flink-window-and-time-example-flink-window-and-time-example_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (6790ms resolve - 107ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (4247ms resolve - 71ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

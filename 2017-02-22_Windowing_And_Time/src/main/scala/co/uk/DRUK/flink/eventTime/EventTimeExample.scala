@@ -38,7 +38,7 @@ object EventTimeExample {
     val timeWindow = keyedStream.timeWindow(Time.seconds(10)).max("value").name("timedwindow")
 
     // stdout
-    timeWindow.print.name("to sink")
+    timeWindow.print.name("print sink")
     env.execute()
   }
 }
