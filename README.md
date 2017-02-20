@@ -13,7 +13,7 @@ An open-source platform for distributed stream and batch data processing.
 
 ## The “What”: Flink from the bottom-up
 
- ![Flink Stack](Images/flink_stack.png)  
+ ![Flink Stack](./Images/flink_stack.png)  
 
 ### Features: Why Flink?
 
